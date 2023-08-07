@@ -1,0 +1,89 @@
+form ul li {
+  display: inline-block;
+}
+
+.sideimg li{
+  display: inline-block;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+} 
+
+button{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btnfirst{
+  color: black  ;
+  border:1px solid #b9cde4;
+  background-color:  transparent;
+  width: 90px;
+}
+.btnfirst:hover{
+ color: #2294ed;
+ border: 1px solid #2294ed;
+ width: 90px;
+
+
+}
+
+
+/* search background image styel */
+.search-result-bg{
+  position: absolute;
+}
+
+
+
+.search-bg-img{
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+.commonimg:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.8);
+  transition: box-shadow 0.3s ease-in-out;
+}
+ul{
+  list-style-type: disc;
+
+}
+.panels ul li{
+  color:  #b9cde4;
+}
+
+/* footer text hover color  */
+.hovertext p a:hover{
+  color: #0191ff;
+}
+/* footer list text  */
+.hovertext a{
+text-decoration: none;
+color: #333;
+}
+.imgside{
+  z-index:-1;
+}
+.textimg{
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-size: 11px;
+  font-weight: 450;
+  white-space: nowrap;
+}
+.footertext{
+  text-decoration: none;
+}
+
